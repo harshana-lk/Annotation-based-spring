@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85dfcb9e-ce18-4a8f-86a5-625294340928" name="Changes" comment="configured annotation based spring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/PriceCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/PriceCalcImpl.java" afterDir="false" />
+    <list default="true" id="85dfcb9e-ce18-4a8f-86a5-625294340928" name="Changes" comment="Dependency Injection Through Annotation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/DateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/CourseDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/CourseDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688374267126</updated>
-      <workItem from="1688374268321" duration="4974000" />
+      <workItem from="1688374268321" duration="7453000" />
     </task>
     <task id="LOCAL-00001" summary="configured annotation based spring">
       <option name="closed" value="true" />
@@ -98,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688389698566</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dependency Injection Through Annotation">
+      <option name="closed" value="true" />
+      <created>1688395268065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688395268065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="configured annotation based spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="configured annotation based spring" />
+    <MESSAGE value="Dependency Injection Through Annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection Through Annotation" />
   </component>
 </project>

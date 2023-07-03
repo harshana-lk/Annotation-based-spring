@@ -1,11 +1,15 @@
 package app;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class CourseDetails implements Course {
     private PriceCalc priceCalc;
+
+    @Value("${course.date}")
+    private int date;
 
     @Autowired
     public CourseDetails(PriceCalc priceCalc) {
@@ -22,4 +26,11 @@ public class CourseDetails implements Course {
         return priceCalc.getPrice();
     }
 
+    public int getDate() {
+        return date;
+    }
+
+    public void setDate(int date) {
+        this.date = date;
+    }
 }
