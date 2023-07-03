@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85dfcb9e-ce18-4a8f-86a5-625294340928" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/CourseDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="85dfcb9e-ce18-4a8f-86a5-625294340928" name="Changes" comment="configured annotation based spring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/PriceCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/PriceCalcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/CourseDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/CourseDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +20,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2S3TSZmtv2WXYs7gKxix8aYaKvk" />
@@ -62,6 +70,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Spring\Annotation-based-spring\src\main\java" />
     </key>
@@ -77,8 +88,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688374267126</updated>
-      <workItem from="1688374268321" duration="1900000" />
+      <workItem from="1688374268321" duration="4974000" />
     </task>
+    <task id="LOCAL-00001" summary="configured annotation based spring">
+      <option name="closed" value="true" />
+      <created>1688389698566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688389698566</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="configured annotation based spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="configured annotation based spring" />
   </component>
 </project>

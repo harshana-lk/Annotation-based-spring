@@ -7,5 +7,6 @@ public class AppInitializer {
         ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         Course course = appContext.getBean("courseDetails", Course.class);
         System.out.println(course.getProgrammeName());
+        System.out.println(course.CalculateCost());
     }
 }
